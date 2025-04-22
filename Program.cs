@@ -153,8 +153,6 @@ class Character
     {
     Console.WriteLine("input the character's full name:");
     name = Console.ReadLine();
-    Console.WriteLine("your character's name is " + name);
-
         Console.WriteLine("input the character's stats in order(str, dex, con,int, wis, chr):");
         for (int i = 0; i < 6; i++)
         {
@@ -170,23 +168,36 @@ class Character
                 }
             
         }
-    Console.WriteLine("your character's stats are: \nstr: " + abilityScores[0] + "\ndex: " + abilityScores[1] + "\ncon: " + abilityScores[2] + "\nint: " + abilityScores[3] + "\nwis: " + abilityScores[4] + "\nchr: " + abilityScores[5]);
-
         Console.WriteLine("input the character's race:");
     race = Console.ReadLine();
-    Console.WriteLine("your character's race is " + race);
 
         Console.WriteLine("input the character's alignment(shortened f.e. neutral good = NG):");
     alignment = Console.ReadLine();
-    Console.WriteLine("your character's alignment is " + alignment);
 
         Console.WriteLine("input the character's background:");
     background = Console.ReadLine();
-    Console.WriteLine("your character's background is " + background);
 
             Console.WriteLine("input the character's level:");
-    level = int.Parse(Console.ReadLine());
-    Console.WriteLine("your character's level is " + level);
-    }
+            loop = true;
+            while (loop == true)
+            {
 
+                try
+                {
+                    level = int.Parse(Console.ReadLine());
+                    loop = false;
+                }
+                catch 
+                {
+                    Console.WriteLine("please enter a whole number");
+                }
+            }
+
+        Console.WriteLine("input the character's class:");
+    mainClass = Console.ReadLine();    
+    }
+    public void ListCharacter()
+    {
+        Console.WriteLine("name: " + name + "\nrace: " + race + "\nalignmet: " + alignment + "\n level: " + level);
+    }
 }
