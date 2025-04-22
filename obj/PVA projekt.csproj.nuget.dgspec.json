@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/veejay/Desktop/vs projekty/skola/PVA projekt/PVA projekt.csproj": {}
+  },
+  "projects": {
+    "/home/veejay/Desktop/vs projekty/skola/PVA projekt/PVA projekt.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/veejay/Desktop/vs projekty/skola/PVA projekt/PVA projekt.csproj",
+        "projectName": "PVA projekt",
+        "projectPath": "/home/veejay/Desktop/vs projekty/skola/PVA projekt/PVA projekt.csproj",
+        "packagesPath": "/home/veejay/.nuget/packages/",
+        "outputPath": "/home/veejay/Desktop/vs projekty/skola/PVA projekt/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/veejay/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
