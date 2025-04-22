@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PVA projekt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6f5628a1f4a429ed9cfa0496bf355d31f1617de")]
 [assembly: System.Reflection.AssemblyProductAttribute("PVA projekt")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PVA projekt")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
